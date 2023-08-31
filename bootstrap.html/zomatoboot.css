@@ -1,0 +1,102 @@
+*{
+    box-sizing: border-box;
+    font-family: Poppins;
+}
+
+.back-img{
+    background-image:linear-gradient(180deg, #9D0E0E00 0%, #4F0707),url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQTz0REl1Lj_WCgPPTkL6zIPasdyKyzS8NQnQ&usqp=CAU);
+    height:400px;
+   background-size:cover;
+    
+}
+.login, .createacc{
+    text-decoration: none;
+    color:white;
+    font-weight: 700;
+    font-size:larger;
+}
+.createacc{
+    border: 1px solid white;
+    padding:5px;
+    width:fit-content;
+}
+
+/* .logo{
+   padding-top:15%; 
+font: normal normal 600 70px/106px Poppins;
+letter-spacing: 0px;
+color: #EB2929;
+opacity: 1;
+} */
+
+.logo{
+    display:inline;
+    color: #EB2929;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border-radius: 50%;
+    
+    font: normal normal 500 70px/106px Poppins;
+letter-spacing: 0px;
+opacity: 1;
+
+}
+ 
+
+/* .logoback{
+
+    width: 147px;
+height: 140px;
+margin-left:48%;
+    border-radius: 50%;
+background: #FFFFFF 0% 0% no-repeat padding-box;
+border: 1px solid #707070;
+opacity: 1;
+} */
+.heading{
+    font: normal normal 600 36px/55px Poppins;
+letter-spacing: 0px;
+color: #FFFFFF;
+opacity: 1;
+}
+.location-dropdown{
+    width: 245px;
+    height: 40px;
+}
+
+.media{
+width: 320px;
+height: 100px;
+background: #FFFFFF;
+box-shadow: 1px 6px 6px #00000029;
+opacity: 1;
+}
+.flex-container{
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content:start;
+    gap:70px;
+}
+.quick-heading{
+    font: normal normal bold 30px/46px Poppins;
+letter-spacing: 0px;
+color: #192F60;
+opacity: 1;
+}
+.quick-para{
+font: normal normal normal 18px/27px Poppins;
+letter-spacing: 0px;
+color: #8C96AB;
+opacity: 1;
+}
+.Fooditem{
+font: normal normal 600 18px/27px Poppins;
+letter-spacing: 0px;
+color: #192F60;
+opacity: 1;
+}
+.foodtag{
+    font: normal normal normal 14px/21px Poppins;
+letter-spacing: 0px;
+color: #8C96AB;
+opacity: 1;
+}

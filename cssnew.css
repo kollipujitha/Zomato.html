@@ -1,0 +1,144 @@
+
+header{
+    background-color: #CE0505;
+    height: 80px;
+    position:relative;
+}
+
+.logo-span{
+    background-color: white;
+    border-radius:50%;
+    padding:4px 15px;
+    position: absolute;
+    left:80px;
+    top:8px;
+}
+
+.logo{
+    font: normal normal 600 33px/50px Poppins;
+    color: #EB2929;
+    /* text-decoration none is used to remove the undrline to the link */
+    text-decoration:none;
+    font-size:40px;
+}
+.login-Account{
+    position:absolute;
+    right:80px;
+    top:25px;
+    /* word space is used to give space btw two elements */
+    word-spacing: 10px;
+}
+ 
+.login{
+text-decoration:none;
+font: normal normal medium 16px/25px Poppins;
+color: #FFFFFF;
+font-size:23px;
+
+}
+.Account{
+    text-decoration:none;
+    font: normal normal medium 16px/25px Poppins;
+    color: #FFFFFF;
+    border:1px solid white;
+    padding:10px 10px;
+    /* margin-left:10px; */
+    word-spacing:normal;
+    font-size:22px;
+    border-radius: 7px;
+} 
+section{
+    position: relative;
+    padding:20px 50px;
+}
+.heading{
+
+font: normal normal bold 36px/55px Poppins;
+color: #192F60;
+left: 100px;
+width: 514px;
+height: 51px;
+margin-bottom: 25px;
+} 
+ .article1{
+width: 214px;
+height: 571px;
+padding-left:17px;
+padding-top:5px;
+/* box-shadow: none|h-offset v-offset blur spread color |inset|initial|inherit; */
+box-shadow: 0px 3px 6px 0px rgb(119, 106, 106);
+}
+ .article2{ 
+    position:absolute;
+background: #FFFFFF 0% 0% no-repeat padding-box;
+box-shadow: 0px 3px 6px 0px rgb(119, 106, 106);
+width:794px;
+height:271px;
+top:95px;
+left:350px;
+}
+.article3{ 
+    position:absolute;
+background: #FFFFFF 0% 0% no-repeat padding-box;
+box-shadow: 0px 3px 6px 0px rgb(119, 106, 106);
+width:794px;
+height:271px;
+top:380px;
+left:350px;
+}
+h3{
+    color: #192F60;
+}
+
+img{
+    width:100px;
+    height:100px;
+    float:left;
+    margin-top:20px;
+    margin-left:20px;
+    position: absolute;
+}
+.item1{
+    height:60px;
+    position:absolute;
+    left:170px; 
+}
+.item2{
+    position: absolute;
+   left:20px;
+    top:140px;
+    height:30px;
+    /* float:left; */
+}
+.item3{
+    height:30px;
+    position:absolute;
+    left:170px;
+    top:140px;
+}
+hr{
+    top: 371px;
+    left: 453px;
+    width: 726px;
+    height: 0px;
+    /* UI Properties */
+    border: 1px solid #DEDFE5;
+    opacity: 1;
+    
+}
+
+.cackeryheading{
+
+color:black; 
+
+}
+.pagination{
+    position: absolute;
+    left:600px;
+    top:670px;
+    word-spacing: 10px;
+}
+.box{
+    border:1px solid black;
+    padding:4px 5px;
+}
